@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+
+body{
+    background-color: #062E25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.img{
+    background-image: url(img/lexi-laginess-XYfjIT9c01Q-unsplash.jpg);
+    background-size: cover;
+    width: 45%;
+    height: 100vh;
+    position: absolute;
+    top: 10; 
+    left: 0; 
+    border-radius: 0 30% 30% 0%;
+}
+.google, .gth{
+    padding: 5px 100px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.form-box{
+    background-color: rgb(16, 194, 87);
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    margin-left: 50vw;
+    margin-right: 5% auto;
+}
+.form-box h1{
+    padding: 0.4rem;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 100px 100px; */
+    /* column-gap: 200px; */
+    gap: 2em;
+    align-items: center;
+    /* padding-left: 35px; */
+}
+.inpuut{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(1, 1, 54);
+    color: white;
+    width: 100%;
+}
+
+
+button{
+    background-color: #062E25;
+    border: none;
+    /* padding-top: 10px; */
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    padding: 1% 5%;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    transition: backround-color 0.3 ease;
+}
+button:hover{
+    cursor: pointer;
+    /* background-color:; */
+}
+.google, .gth:hover{
+    cursor: pointer;
+}
+
+
+p{
+    padding-bottom: 2px; 
+}
+
+.img2{
+    background-image: url(img/odin-lined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: grey;
+    width: 45%;
+    height: 25vh;
+    position: absolute;
+    top: 10; 
+    left: 0; 
+    border-radius: 0 30% 30% 0%;
+    text-align: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    color: white;
+    opacity: 0.8;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* media queries  */
+
+
+@media (max-width: 480px) {
+
+    .img{
+        display: none;
+    }
+    
+    .form-box{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 720px) {
+
+
+    .img{
+        display: none;
+    }
+
+    .form-box{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-right: 40px;
+    }
+}
+
