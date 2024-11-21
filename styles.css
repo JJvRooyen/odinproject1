@@ -144,8 +144,8 @@ p{
 @media (max-width: 720px) {
 
 
-    .img, .img2{
-        display: none;
+    div.img, div.img2{
+        display: none !important; 
     }
 
     .form-box{
