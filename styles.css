@@ -130,7 +130,7 @@ p{
 
 @media (max-width: 480px) {
 
-    .img, img2{
+    .img, .img2{
         display: none;
     }
     
